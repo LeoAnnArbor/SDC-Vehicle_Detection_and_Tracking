@@ -60,8 +60,6 @@ Here's an example result showing the hotboxes, heatmap and the resulting final b
 ---
 
 The pipeline is then applied to the video to on each frame and the box is averaged among previous 10 frames. The results in test_videos_output shows that the pipeline performs reasonably well on the entire project video.Here's a [link to my video result](test_videos_output/project_video.mp4)
----
-
 
 ## Discussion
 
