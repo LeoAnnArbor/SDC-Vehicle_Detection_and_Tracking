@@ -16,7 +16,7 @@ In this project, I’ll use image features to train a linear support vector mach
 ### Step 1: Image preprocessing
 Total number of images belonging to car and not car are 8792 and 8968 respectively. Since the numbers of both categories are comparable, no further data balancing is performed. An example of the car and not car images are shown as bellow:
 
-<img src=“output_images/example.jpg”/>
+<img src="output_images/example.jpg"/>
 
 ---
 
@@ -34,12 +34,12 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 
 Here is an example of the HOG features of images:
 
-<img src=“output_images/example_hog_feature.jpg/“>
+<img src="output_images/example_hog_feature.jpg"/>
 
 ---
 Combining features from the HOG feature and histograms of color, image features are then normalized using the function `StandardScaler()`. An example of the features before and after normaliztion is shown as below:
 
-<img src=“output_images/example_normalized_feature.jpg”/>
+<img src="output_images/example_normalized_feature.jpg"/>
 
 ---
 
@@ -55,7 +55,7 @@ I recorded the positions of positive detections in the image and from the positi
   
 Here's an example result showing the hotboxes, heatmap and the resulting final bonding box:
 
-<img src=“output_images/example_boxes.jpg”/>
+<img src="output_images/example_boxes.jpg"/>
 
 ---
 
