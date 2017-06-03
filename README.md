@@ -59,11 +59,15 @@ Here's an example result showing the hotboxes, heatmap and the resulting final b
 
 ---
 
-The pipeline is then applied to the video to on each frame and the box is averaged among previous 10 frames. The results in test_videos_output shows that the pipeline performs reasonably well on the entire project video.Here's a [link to my video result]((./project_video.mp4))
-——
-
-###Discussion
+The pipeline is then applied to the video to on each frame and the box is averaged among previous 10 frames. The results in test_videos_output shows that the pipeline performs reasonably well on the entire project video.Here's a [link to my video result](test_videos_output/project_video.mp4)
+---
 
 
-  
+## Discussion
+
+The output videos look reasonably well be there are couple of improvements that can be made to improve the performance. 
+
+First improvement can be made at the training stage.Since the total number of training data is only roughly twice as much as the number of feature vectors, the model is very prone to overfitting. Therefore, mode training data, such as data collected by Udacity [here](https://github.com/udacity/self-driving-car/tree/master/annotations). Also, instead of simple linear support vector machine, other methods such as Deep Neuron Networks(DNN) might improve the performance of the training model to avoid false positive.
+
+Another improvement can be made at the vehicle detection stage. In addition to thresholding, other methods such as non maximum suppression can be used to find the position of the bounding box. Furthermore, it can be beneficial to keep track of the position and number of cars when processing video files to reject false positive detections and generate smooth output videos.
 
