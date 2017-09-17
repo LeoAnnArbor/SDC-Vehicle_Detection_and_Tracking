@@ -1,6 +1,8 @@
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+# Udacity Self-Driving Car Engineer Nanodegree
 # Vehicle Detection and Tracking
 
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+<img src="./image/demo.gif?raw=true" width="500px">
 
 ## The goals / steps of this project are the following:
 In this project, I’ll use image features to train a linear support vector machine to detect and track vehicles on the lane lines. General steps taken are as follows:
